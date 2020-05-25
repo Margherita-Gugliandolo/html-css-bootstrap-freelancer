@@ -1,0 +1,16 @@
+/* regole di debug */
+
+.container{
+  background-color: lightyellow;
+
+}
+
+section{
+  background-color: lightblue;
+  height:500px;
+}
+
+.row{
+  height:100px;
+  background-color: orange;
+}
