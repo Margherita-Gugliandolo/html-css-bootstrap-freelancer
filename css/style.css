@@ -5,17 +5,51 @@
   padding:5px 0;
 }
 
+#intestazione, #about{
+  background-color: #66CDAA;
+  color:#fff;
+}
+
+#intestazione{
+  padding:5% 0;
+  height:100vh;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 32px;
+}
+
+h4{
+  font-size: 26px;
+  color:#fff;
+}
+
+#foto-profilo{
+  width:400px;
+}
+
+#about, #contact, footer{
+  padding:3% 0;
+}
+
 #brand-color{
   font-size: 24px;
   font-weight: bolder;
   color:#fff;
 }
-#link-color{
-  color:white;
+
+.fa-star{
+  font-size: 28px;
+  padding:15px 0;
 }
 
 #contact-form{
-  margin:50px 0;
+  margin:30px 0;
 }
 
 #text-area{
@@ -38,27 +72,6 @@
   padding:15px;
   border:none;
 }
-
-
-#intestazione, #about{
-  background-color: #66CDAA;
-  color:#fff;
-  padding:4% 0;
-}
-.fa-star{
-  font-size: 28px;
-  padding:15px 0;
-}
-
-h1{
-  font-size: 50px;
-  font-weight: bold;
-}
-
-#foto-profilo{
-  width:400px;
-}
-
 
 .img{
   width:300px;
@@ -83,28 +96,47 @@ p{
   text-decoration: none;
 }
 
-.fa-download{
+.text-color{
   color:#fff;
 }
 
-.divider-nero{
+.divider-nero, .divider{
   display: inline-block;
   height:5px;
   width:100px;
-  background-color: #000;
   margin:6px 0;
 }
 
-#portfolio{
-  padding:3% 0;
-}
 .divider{
-  display: inline-block;
-  height:5px;
-  width:100px;
   background-color: #fff;
-  margin:6px 0;
 }
-footer{
+
+.divider-nero{
+  background-color: #000;
+}
+
+#portfolio{
+  padding:5% 0;
+}
+
+#footer-first{
   background-color: #303f60;
+}
+
+#footer-last{
+  background-color: #1a252f;
+  height:10vh;
+}
+
+div #social li{
+  display: inline-block;
+  padding:5%;
+  border:3px solid #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#social li a{
+  font-size: 20px;
+  color:#fff;
 }
