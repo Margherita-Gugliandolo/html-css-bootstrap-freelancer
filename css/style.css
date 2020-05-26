@@ -1,38 +1,62 @@
-/* regole di debug */
+/* le mie regole */
+#navbar{
+  background-color:#303f60;
+  border-bottom: none;
+  padding:5px 0;
+}
 
+#brand-color{
+  font-size: 24px;
+  font-weight: bolder;
+  color:#fff;
+}
+#link-color{
+  color:white;
+}
 
+#contact-form{
+  margin:50px 0;
+}
 
+#text-area{
+  padding:2% 20%;
+  margin-bottom: 10%;
+}
 
-
-header{
-  background-color:darkblue;
+.form-control{
+  border:none;
+  font-size: 20px;
   height:100%;
 }
 
-
-footer{
-  background-color: darkblue;
-}
-
-
-
-#contat-fom .form-control text-area input{
-  height:100%
-
-}
-
-/* le mie regole */
-.intestazione{
-  background-color: #359976;
+.btn{
+  margin-left:20%;
+  font-size: 18px;
+  font-weight: bold;
   color:#fff;
-  padding:2% 0;
+  background-color: #66CDAA;
+  padding:15px;
+  border:none;
+}
+
+
+#intestazione, #about{
+  background-color: #66CDAA;
+  color:#fff;
+  padding:4% 0;
 }
 .fa-star{
-  font-size: 24px;
+  font-size: 28px;
+  padding:15px 0;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
 }
 
 #foto-profilo{
-  width:100px;
+  width:400px;
 }
 
 
@@ -44,18 +68,43 @@ footer{
 
 p{
   font-size: 20px;
-  padding:0 15%;
+  padding:10% 15%;
 }
 
 #bottone-about{
   background-color: rgba(255, 0, 0, 0);
   color:#fff;
   font-size: 16px;
-  padding:5px 10px;
+  padding:10px 10px;
   border:1px solid #fff;
   border-radius: 5%;
+}
+#bottone-about:hover{
+  text-decoration: none;
 }
 
 .fa-download{
   color:#fff;
+}
+
+.divider-nero{
+  display: inline-block;
+  height:5px;
+  width:100px;
+  background-color: #000;
+  margin:6px 0;
+}
+
+#portfolio{
+  padding:3% 0;
+}
+.divider{
+  display: inline-block;
+  height:5px;
+  width:100px;
+  background-color: #fff;
+  margin:6px 0;
+}
+footer{
+  background-color: #303f60;
 }
