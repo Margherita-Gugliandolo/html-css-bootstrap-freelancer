@@ -12,7 +12,7 @@
 
 #intestazione{
   padding:5% 0;
-  height:100vh;
+  height:100%;
 }
 
 #brand{
@@ -23,8 +23,16 @@
 
 /* formattazione testi */
 h1{
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: 500;
+  padding:2% 0;
+}
+
+h2{
+  font-size: 45px;
   font-weight: bold;
+  letter-spacing: 1px;
+  color: #2c3e50;
 }
 
 h3{
@@ -35,6 +43,7 @@ h4{
   font-size: 26px;
   color:#fff;
   margin-bottom:5%;
+  font-weight: 400;
 }
 
 p{
@@ -49,13 +58,16 @@ p{
 /* foto profilo e immagini */
 
 #foto-profilo{
-  width:400px;
+  margin-top: 5%;
+  width:250px;
+  height:auto;
 }
 
 .img{
-  width:300px;
-  padding:2% 0;
-  border-radius: 5%;
+  max-width:100%;
+  height:auto;
+  padding:5% 3%;
+  border-radius: 30px;
 }
 
 /* distanziamento contenitori */
@@ -71,10 +83,14 @@ p{
   padding:15px 0;
 }
 
-.divider-nero, .divider{
+#contact .fa-star, #portfolio .fa-star{
+  color: #303f60
+}
+
+.divider-dark, .divider{
   display: inline-block;
-  height:5px;
-  width:100px;
+  height:4px;
+  width:130px;
   margin:6px 0;
 }
 
@@ -82,15 +98,11 @@ p{
   background-color: #fff;
 }
 
-.divider-nero{
-  background-color: #000;
+.divider-dark{
+  background-color: #303f60;
 }
 
 /* about */
-#text-area{
-  padding:2% 20%;
-  margin-bottom: 10%;
-}
 
 #bottone-about{
   background-color: rgba(255, 0, 0, 0);
@@ -105,23 +117,26 @@ p{
 
 /* contact form */
 
-#contact-form{
-  margin:30px 0;
+#contact-form .form-group input,
+#contact-form .form-group textarea{
+  border: none;
+  border-bottom: 1px solid #d1d3d6;
+  box-shadow: none;
+  border-radius: none;
+  font-size: 24px;
 }
 
-.form-control{
-  border:none;
-  font-size: 20px;
-  height:100%;
+#contact-form .form-group input{
+  height:80px;
 }
 
 .btn{
-  margin-left:20%;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 500;
   background-color: #66CDAA;
-  padding:15px;
+  padding:20px 30px;
   border:none;
+  border-radius: 10px;
 }
 
 /* FOOTER */
