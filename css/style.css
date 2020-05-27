@@ -237,3 +237,8 @@ footer span, footer address{
   border-radius: 50%;
   padding:15px;
 }
+
+#social a i:hover{
+  color:#000;
+  background-color: #fff;
+}
